@@ -81,7 +81,7 @@ namespace hft {
         NEW = 0,
         PARTIALLY_FILLED = 1,
         FILLED = 2,
-        CANCELED = 3,
+        CANCELLED = 3,
         REJECTED = 4,
         EXPIRED = 5
     };
@@ -91,7 +91,7 @@ namespace hft {
             case OrderStatus::NEW: return "NEW";
             case OrderStatus::PARTIALLY_FILLED: return "PARTIALLY_FILLED";
             case OrderStatus::FILLED: return "FILLED";
-            case OrderStatus::CANCELED: return "CANCELED";
+            case OrderStatus::CANCELLED: return "CANCELLED";
             case OrderStatus::REJECTED: return "REJECTED";
             case OrderStatus::EXPIRED: return "EXPIRED";
             default: return "UNKNOWN";
